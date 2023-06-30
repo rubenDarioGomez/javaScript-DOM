@@ -1,0 +1,61 @@
+/* estilos generales */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;/*100% de la altura de la ventana del navegador*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 10px solid red;
+    background-color: #3009cf;
+}
+
+/* contenedores] */
+
+.contenedor-principal{
+    width: 80vw; /*80% de su contenedor padre*/
+    max-width: 600px;
+    min-height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    background-color:wheat;
+
+}
+
+#cronometro{
+    width: 100%;
+    font-size: 80px;
+    font-weight: bold;
+    user-select: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.boton{
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#boton-inicio-pausa.iniciar,
+#boton-inicio-pausa.iniciar i {
+    background-color: #08e008;
+}
+
+#boton-inicio-pausa.pausar,
+#boton-inicio-pausa.pausar i {
+    background-color: #ffdc00;
+}
+
+#boton-reiniciar{
+    background-color: red;
+}
